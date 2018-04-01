@@ -55,6 +55,7 @@ Javascript-like language that transpiles to Lua.
 - `:` passes left-hand as first argument to right-hand function
 - `...args` named param spreads and rest args
 - `() =>` one-line lambdas (implicit return)
+- `() => {}` multi-line lambdas (implicit return)
 - `() =>` has `@` bound to parent scope `@`
 
 ### Maps
