@@ -28,6 +28,7 @@ Javascript-like language that transpiles to Lua.
 - `extends` keyword
 - `constructor` keyword
 - `get` and `set` keywords
+- `foo() {}` method declaration
 
 ### Expressions
 - `a = 1` returns `1`
