@@ -91,8 +91,8 @@ Javascript-like language that transpiles to Lua.
 - `if a = opts.a` set variable and test it
 
 ### Switch blocks
-- no braces: `case x`
-- with braces: `case (x) {}`
+- no braces: `switch x`
+- with braces: `switch (x) {}`
 - `when` keyword for each match
 - `when 1:` for one-line match block
 - empty `when` blocks use next `when` block
