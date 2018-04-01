@@ -106,6 +106,11 @@ Javascript-like language that transpiles to Lua.
 - `continue` keyword
 - `break` keyword
 
+### Strings
+- single or double quotes
+- literal concat: `"a" b "c"` => `"a" .. b .. "c"`
+- variable concat: `a .. b`
+
 ### Comments
 - `//` for single line
 - `/* */` for multi line
