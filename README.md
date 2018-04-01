@@ -75,6 +75,7 @@ Javascript-like language that transpiles to Lua.
 - return a tuple: `return (1, 2, 3)`
 - assign a tuple: `let (a, b) = (1, 2)`
 - without let: `(a, b) = (1, 2)` for existing vars
+- tuple to array: `let (...arr) = (1, 2)`
 
 ### Lambdas (function w/ implicit return)
 - `() =>` one-liner
