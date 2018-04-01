@@ -82,7 +82,6 @@ Javascript-like language that transpiles to Lua.
 - `(foo => {})` optional syntax if only one arg
 
 ### Conditionals
-- parens not required
 - no braces: `if true`
 - with braces: `if (true) {}`
 - function calls must use parens: `if foo()` or `if (foo 1, 2)`
@@ -100,7 +99,6 @@ Javascript-like language that transpiles to Lua.
 - no implicit fallthrough
 
 ### Loops
-- parens not required
 - no braces: `while true`
 - with braces: `while (true) {}`
 - trailing loop declaration (eg: `a += 1 while true`)
