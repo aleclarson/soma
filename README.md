@@ -69,7 +69,7 @@ Javascript-like language that transpiles to Lua.
 - no braces (except `while true do {}`)
 - `while true` loop
 - `until true` loop
-- `repeat` with trailing `until` loop
+- `do {} while true` loop
 - `for x in arr` array loops (value only)
 - `for x of map` map loops (value only)
 - `for i, v in arr` array loops (index and value)
