@@ -120,6 +120,13 @@ Javascript-like language that transpiles to Lua.
 - `//` for single line
 - `/* */` for multi line
 
+### Modules
+- `import` supports relative paths
+- `export function` export only a function
+- `export foo =` set a property export (accessible in scope too)
+- `export {}` export only a map
+- `export []` export only an array
+
 ### Undecided
 - `setmetatable` keyword?
 - allow semicolons?
