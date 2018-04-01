@@ -97,6 +97,7 @@ Javascript-like language that transpiles to Lua.
 - `while true` loop
 - `until true` loop
 - `do {} while true` loop
+- `do {} until true` loop
 - `for x in map` array/map loops (value only)
 - `for k, x in map` array/map loops (index/key, value)
 - `for a, b, c of iter` iterator loops
