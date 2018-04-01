@@ -61,6 +61,7 @@ Javascript-like language that transpiles to Lua.
 - `{ [x]: 1 }` any value as map key
 
 ### Conditionals
+- parens not required
 - trailing `if` statement (eg: `return 1 if true`)
 
 ### Loops
