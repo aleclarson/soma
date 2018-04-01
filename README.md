@@ -66,7 +66,7 @@ Javascript-like language that transpiles to Lua.
 - function call no args: `foo()`
 - function call no parens: `foo 1, 2`
 - function call w/ parens: `foo(1, 2)` or `foo (1, 2)` or `(foo 1, 2)`
-- `:` passes left-hand as first argument to right-hand function
+- method calls: `a:b()` sets `a` as `@` of `b`
 - `...args` named rest arguments (and array unpacking)
 - `function(a = 1) {}` default argument values
 
