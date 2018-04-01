@@ -57,6 +57,7 @@ Javascript-like language that transpiles to Lua.
 - `() =>` one-line lambdas (implicit return)
 - `() => {}` multi-line lambdas (implicit return)
 - `() =>` has `@` bound to parent scope `@`
+- `(foo => {})` one-argument lambdas wrapped with parens
 
 ### Maps
 - `let m = {a, b, c}` map key to variable of same name
