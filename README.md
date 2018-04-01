@@ -64,6 +64,8 @@ Javascript-like language that transpiles to Lua.
 - trailing `if` statement (eg: `return 1 if true`)
 
 ### Loops
+- `while true` loop
+- `until true` loop
 - `for x in arr` array loops (value only)
 - `for x of map` map loops (value only)
 - `for i, v in arr` array loops (index and value)
