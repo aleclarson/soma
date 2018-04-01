@@ -112,6 +112,7 @@ Javascript-like language that transpiles to Lua.
 - `"a\(b + 1)/c"` for expressions
 - variable concat: `a\b\c` => `a .. b .. c`
 - multi-line strings (`"` only)
+- `a \= b` => `a = a .. b`
 
 ### Expressions
 - `a = 1` returns `1`
