@@ -86,4 +86,5 @@ Javascript-like language that transpiles to Lua.
 - template strings?
 - `setmetatable` keyword?
 - `instanceof` keyword?
+- allow semicolons?
 
