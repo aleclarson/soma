@@ -1,4 +1,4 @@
-# soma v0.0.1
+# soma v0.0.2
 
 Javascript-like language that transpiles to Lua.
 
