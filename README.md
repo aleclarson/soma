@@ -20,13 +20,16 @@ Javascript-like language that transpiles to Lua.
 - `echo` transpiles to `print()`
 - `new Foo` transpiles to `Foo.new()`
 
+### Comparison
+- `a == b` for strict equals
+- `a != b` for *not* strict equals
+- `x in [1..10]` range comparison
+- `a?` shorthand for `a != nil`
+- `!a` shorthand for `a == nil or a == false`
+
 ### Operators
-- `==` operator for strict equals
-- `!=` operator for not strict equals
 - `?=` operator sets variable if nil
 - `?.` operator for nil-safe accessors
-- `?` operator shorthand for `~= nil`
-- `!` operator to convert value to boolean
 - `#` operator for string/table length
 - `|` operator for piping function results
 
