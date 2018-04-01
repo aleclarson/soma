@@ -85,6 +85,7 @@ Javascript-like language that transpiles to Lua.
 - parens not required
 - no braces: `if true`
 - with braces: `if (true) {}`
+- function calls must use parens: `if foo()` or `if (foo 1, 2)`
 - trailing `if` statement (eg: `return 1 if true`)
 
 ### Loops
