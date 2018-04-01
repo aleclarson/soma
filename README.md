@@ -91,7 +91,8 @@ Javascript-like language that transpiles to Lua.
 
 ### Loops
 - parens not required
-- no braces (except `while true do {}`)
+- no braces: `while true`
+- with braces: `while (true) {}`
 - `while true` loop
 - `until true` loop
 - `do {} while true` loop
