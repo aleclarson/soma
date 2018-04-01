@@ -67,6 +67,10 @@ Javascript-like language that transpiles to Lua.
 - `for k, v of map` map loops (key and value)
 - `for x in [1..2]` range loops
 
+### Comments
+- `//` for single line
+- `/* */` for multi line
+
 ### Undecided
 - template strings?
 - `setmetatable` keyword?
