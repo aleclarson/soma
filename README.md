@@ -71,6 +71,8 @@ Javascript-like language that transpiles to Lua.
 - `for i, v in arr` array loops (index and value)
 - `for k, v of map` map loops (key and value)
 - `for x in [1..2]` range loops
+- `continue` keyword
+- `break` keyword
 
 ### Comments
 - `//` for single line
