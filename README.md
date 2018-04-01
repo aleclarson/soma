@@ -41,6 +41,11 @@ Javascript-like language that transpiles to Lua.
 - `@foo() {}` static methods
 - `@foo =` static properties
 
+### Super
+- `super` returns the metatable of the superclass
+- `super()` within a method to call the overrided method
+- `super.foo()` to call some other method of the superclass
+
 ### Variables
 - `let a, b = 1` sets `b` to `1`
 - `let (a, b) = (1, 2)` sets `a` to `1` and `b` to `2`
