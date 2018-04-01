@@ -60,6 +60,9 @@ Javascript-like language that transpiles to Lua.
 - `let {a, b, c} =` map destructuring
 - `{ [x]: 1 }` any value as map key
 
+### Conditionals
+- trailing `if` statement (eg: `return 1 if true`)
+
 ### Loops
 - `for x in arr` array loops (value only)
 - `for x of map` map loops (value only)
