@@ -131,6 +131,7 @@ Javascript-like language that transpiles to Lua.
 - `export []` export only an array
 
 ### Undecided
+- `enum` structs?
 - `setmetatable` keyword?
 - allow semicolons?
 
