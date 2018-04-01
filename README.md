@@ -35,10 +35,6 @@ Javascript-like language that transpiles to Lua.
 - `foo() {}` method declaration
 - `@foo() {}` static methods
 
-### Expressions
-- `a = 1` returns `1`
-- `a = if true then 1 else 0`
-
 ### Variables
 - `let a, b = 1` sets `b` to `1`
 - `let (a, b) = (1, 2)` sets `a` to `1` and `b` to `2`
@@ -48,7 +44,7 @@ Javascript-like language that transpiles to Lua.
 - `[]` built-in array structure
 - `{}` map literals require braces
 - `/.+/g` regex literals
-- `do { }` blocks (are expressions)
+- `do { }` blocks
 
 ### Arrays
 - `let [a, b, c] =` array destructuring
@@ -110,6 +106,11 @@ Javascript-like language that transpiles to Lua.
 - single or double quotes
 - literal concat: `"a" b "c"` => `"a" .. b .. "c"`
 - variable concat: `a .. b`
+
+### Expressions
+- `a = 1` returns `1`
+- `a = if true then 1 else 0`
+- `a = do {}`
 
 ### Comments
 - `//` for single line
