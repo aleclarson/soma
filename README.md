@@ -54,7 +54,7 @@ Javascript-like language that transpiles to Lua.
 - call functions with or without parens
 - `:` passes left-hand as first argument to right-hand function
 - `...args` named param spreads and rest args
-- `() =>` for one-line functions (implicit return)
+- `() =>` one-line lambdas (implicit return)
 - `() =>` has `@` bound to parent scope `@`
 
 ### Maps
