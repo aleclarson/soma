@@ -26,6 +26,7 @@ Javascript-like language that transpiles to Lua.
 - `?` operator shorthand for `~= nil`
 - `!` operator to convert value to boolean
 - `#` operator for string/table length
+- `|` operator for piping function results
 
 ### Class
 - `extends` keyword
