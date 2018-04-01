@@ -49,6 +49,9 @@ Javascript-like language that transpiles to Lua.
 
 ### Arrays
 - `let [a, b, c] =` array destructuring
+- `push`, `unshift`, and `concat` methods
+- `map`, `filter`, `reduce`, `forEach` methods
+- `slice` and `splice` methods
 
 ### Maps
 - `let m = {a, b, c}` map key to variable of same name
