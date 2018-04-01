@@ -39,6 +39,7 @@ Javascript-like language that transpiles to Lua.
 - `let a, b = 1` sets `b` to `1`
 - `let (a, b) = (1, 2)` sets `a` to `1` and `b` to `2`
 - `let (a, b) =` works with function call on right-hand side too
+- assignment of an undeclared variable is a compile-time error
 
 ### Literals
 - `[]` built-in array structure
