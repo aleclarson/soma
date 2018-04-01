@@ -97,10 +97,9 @@ Javascript-like language that transpiles to Lua.
 - `while true` loop
 - `until true` loop
 - `do {} while true` loop
-- `for x in arr` array loops (value only)
-- `for x of map` map loops (value only)
-- `for i, v in arr` array loops (index and value)
-- `for k, v of map` map loops (key and value)
+- `for x in map` array/map loops (value only)
+- `for k, x in map` array/map loops (index/key, value)
+- `for a, b, c of iter` iterator loops
 - `for x in [1..2]` range loops
 - `continue` keyword
 - `break` keyword
