@@ -37,6 +37,7 @@ Javascript-like language that transpiles to Lua.
 
 ### Expressions
 - `a = 1` returns `1`
+- `a = if true then 1 else 0`
 
 ### Variables
 - `let a, b = 1` sets `b` to `1`
