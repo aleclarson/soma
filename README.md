@@ -29,6 +29,7 @@ Javascript-like language that transpiles to Lua.
 - `constructor` keyword
 - `get` and `set` keywords
 - `foo() {}` method declaration
+- `@foo() {}` static methods
 
 ### Expressions
 - `a = 1` returns `1`
