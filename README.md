@@ -75,6 +75,7 @@ Javascript-like language that transpiles to Lua.
 - trailing `if` statement (eg: `return 1 if true`)
 
 ### Loops
+- parens not required
 - no braces (except `while true do {}`)
 - `while true` loop
 - `until true` loop
