@@ -50,6 +50,11 @@ Javascript-like language that transpiles to Lua.
 ### Arrays
 - `let [a, b, c] =` array destructuring
 
+### Maps
+- `let m = {a, b, c}` map key to variable of same name
+- `let {a, b, c} =` map destructuring
+- `{ [x]: 1 }` any value as map key
+
 ### Functions
 - tuples (eg: `return (1, 2)`)
 - named `function` hoisting
@@ -60,11 +65,6 @@ Javascript-like language that transpiles to Lua.
 - `() => {}` multi-line lambdas (implicit return)
 - `() =>` has `@` bound to parent scope `@`
 - `(foo => {})` one-argument lambdas wrapped with parens
-
-### Maps
-- `let m = {a, b, c}` map key to variable of same name
-- `let {a, b, c} =` map destructuring
-- `{ [x]: 1 }` any value as map key
 
 ### Conditionals
 - parens not required
