@@ -39,6 +39,7 @@ Javascript-like language that transpiles to Lua.
 - `get` and `set` keywords
 - `foo() {}` method declaration
 - `@foo() {}` static methods
+- `@foo =` static properties
 
 ### Variables
 - `let a, b = 1` sets `b` to `1`
