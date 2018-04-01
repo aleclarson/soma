@@ -133,5 +133,6 @@ Javascript-like language that transpiles to Lua.
 ### Undecided
 - `enum` structs?
 - `setmetatable` keyword?
+- `switch` blocks?
 - allow semicolons?
 
