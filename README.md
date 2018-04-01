@@ -61,6 +61,7 @@ Javascript-like language that transpiles to Lua.
 - call functions with or without parens
 - `:` passes left-hand as first argument to right-hand function
 - `...args` named rest arguments (and array unpacking)
+- `function(a = 1) {}` default argument values
 
 ### Lambdas (function w/ implicit return)
 - `() =>` one-liner
