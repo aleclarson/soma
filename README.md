@@ -60,7 +60,7 @@ Javascript-like language that transpiles to Lua.
 - named `function` hoisting
 - call functions with or without parens
 - `:` passes left-hand as first argument to right-hand function
-- `...args` named param spreads and rest args
+- `...args` named rest arguments (and array unpacking)
 
 ### Lambdas (function w/ implicit return)
 - `() =>` one-liner
