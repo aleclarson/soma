@@ -62,12 +62,15 @@ Javascript-like language that transpiles to Lua.
 - `{ [x]: 1 }` any value as map key
 
 ### Functions
-- tuples (eg: `return (1, 2)`)
 - named `function` hoisting
 - call functions with or without parens
 - `:` passes left-hand as first argument to right-hand function
 - `...args` named rest arguments (and array unpacking)
 - `function(a = 1) {}` default argument values
+
+### Tuples
+- return a tuple: `return (1, 2, 3)`
+- assign a tuple: `let (a, b) = (1, 2)`
 
 ### Lambdas (function w/ implicit return)
 - `() =>` one-liner
