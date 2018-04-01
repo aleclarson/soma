@@ -61,10 +61,12 @@ Javascript-like language that transpiles to Lua.
 - call functions with or without parens
 - `:` passes left-hand as first argument to right-hand function
 - `...args` named param spreads and rest args
-- `() =>` one-line lambdas (implicit return)
-- `() => {}` multi-line lambdas (implicit return)
-- `() =>` has `@` bound to parent scope `@`
-- `(foo => {})` one-argument lambdas wrapped with parens
+
+### Lambdas (function w/ implicit return)
+- `() =>` one-liner
+- `() => {}` multi-line
+- `@` is bound to parent scope `@`
+- `(foo => {})` optional syntax if only one arg
 
 ### Conditionals
 - parens not required
