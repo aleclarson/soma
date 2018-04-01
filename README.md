@@ -15,9 +15,11 @@ Javascript-like language that transpiles to Lua.
 - `export` for module exports
 - `import` for module imports
 - `import()` for require-like syntax
+- `typeof` transpiles to `type()`
 
 ### Operators
-- `~=` operator for "not equal"
+- `==` operator for strict equals
+- `!=` operator for not strict equals
 - `?=` operator sets variable if nil
 - `?.` operator for nil-safe accessors
 - `?` operator shorthand for `~= nil`
