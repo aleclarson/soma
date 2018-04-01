@@ -93,6 +93,7 @@ Javascript-like language that transpiles to Lua.
 - parens not required
 - no braces: `while true`
 - with braces: `while (true) {}`
+- trailing loop declaration (eg: `a += 1 while true`)
 - `while true` loop
 - `until true` loop
 - `do {} while true` loop
