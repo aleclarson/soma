@@ -108,6 +108,7 @@ Javascript-like language that transpiles to Lua.
 ### Strings
 - single or double quotes
 - literal concat: `"a\b/c"` => `"a" .. b .. "c"`
+- `"a\(b + 1)/c"` for expressions
 - variable concat: `a\b\c` => `a .. b .. c`
 - multi-line strings
 
