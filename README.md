@@ -18,6 +18,7 @@ Javascript-like language that transpiles to Lua.
 - `import()` for require-like syntax
 - `typeof` transpiles to `type()`
 - `echo` transpiles to `print()`
+- `new Foo` transpiles to `Foo.new()`
 
 ### Operators
 - `==` operator for strict equals
