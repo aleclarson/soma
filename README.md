@@ -83,7 +83,8 @@ Javascript-like language that transpiles to Lua.
 
 ### Conditionals
 - parens not required
-- no braces (except `if true do {}`)
+- no braces: `if true`
+- with braces: `if (true) {}`
 - trailing `if` statement (eg: `return 1 if true`)
 
 ### Loops
