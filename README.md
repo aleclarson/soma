@@ -106,8 +106,8 @@ Javascript-like language that transpiles to Lua.
 
 ### Strings
 - single or double quotes
-- literal concat: `"a" b "c"` => `"a" .. b .. "c"`
-- variable concat: `a .. b`
+- literal concat: `"a\b/c"` => `"a" .. b .. "c"`
+- variable concat: `a\b\c` => `a .. b .. c`
 - multi-line strings
 
 ### Expressions
@@ -120,7 +120,6 @@ Javascript-like language that transpiles to Lua.
 - `/* */` for multi line
 
 ### Undecided
-- template strings?
 - `setmetatable` keyword?
 - `instanceof` keyword?
 - allow semicolons?
