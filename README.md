@@ -67,6 +67,7 @@ Javascript-like language that transpiles to Lua.
 - `@foo()` is a method call, do `@.foo()` for function calls
 - `...args` named rest arguments (and array unpacking)
 - `function(a = 1) {}` default argument values
+- `(function() {})()` self-calling functions
 
 ### Tuples
 - return a tuple: `return (1, 2, 3)`
