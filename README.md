@@ -8,6 +8,7 @@ Javascript-like language that transpiles to Lua.
 - `class {}` declaration
 - `function() {}` declaration
 - `@` instead of `this`
+- `is` instead of `instanceof`
 - `or` instead of `||`
 - `and` instead of `&&`
 - `let` for variable declaration (block-scoped)
@@ -121,6 +122,5 @@ Javascript-like language that transpiles to Lua.
 
 ### Undecided
 - `setmetatable` keyword?
-- `instanceof` keyword?
 - allow semicolons?
 
