@@ -97,6 +97,7 @@ Javascript-like language that transpiles to Lua.
 - `@foo =` static properties
 - named classes are hoisted: `class Foo {}`
 - anonymous classes are not: `let x = class {}`
+- mutate a metatable: `Foo:bar = function() {}`
 
 ### Super
 - `super` returns the metatable of the superclass
