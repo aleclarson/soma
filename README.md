@@ -18,6 +18,8 @@ Javascript-like language that transpiles to Lua.
 - `typeof` transpiles to `type()`
 - `echo` transpiles to `print()`
 - `new Foo` transpiles to `Foo.new()`
+- `throw` transpiles to `error()`
+- `try..catch` transpiles to `xpcall()`
 
 ### Comparison
 - `a == b` for strict equals
