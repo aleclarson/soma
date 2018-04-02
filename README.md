@@ -32,21 +32,6 @@ Javascript-like language that transpiles to Lua.
 - `#` operator for string/table length
 - `|` operator for piping function results
 
-### Class
-- `extends` keyword
-- `constructor` keyword
-- `get` and `set` keywords
-- `foo() {}` method declaration
-- `@foo() {}` static methods
-- `@foo =` static properties
-- named classes are hoisted: `class Foo {}`
-- anonymous classes are not: `let x = class {}`
-
-### Super
-- `super` returns the metatable of the superclass
-- `super()` within a method to call the overrided method
-- `super.foo()` to call some other method of the superclass
-
 ### Variables
 - `let a, b = 1` sets `b` to `1`
 - `let (a, b) = (1, 2)` sets `a` to `1` and `b` to `2`
@@ -101,6 +86,21 @@ Javascript-like language that transpiles to Lua.
 - `() => {}` multi-line
 - `@` is bound to parent scope `@`
 - `(foo => {})` optional syntax if only one arg
+
+### Class
+- `extends` keyword
+- `constructor` keyword
+- `get` and `set` keywords
+- `foo() {}` method declaration
+- `@foo() {}` static methods
+- `@foo =` static properties
+- named classes are hoisted: `class Foo {}`
+- anonymous classes are not: `let x = class {}`
+
+### Super
+- `super` returns the metatable of the superclass
+- `super()` within a method to call the overrided method
+- `super.foo()` to call some other method of the superclass
 
 ### Conditionals
 - no braces: `if true`
