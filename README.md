@@ -63,6 +63,11 @@ Javascript-like language that transpiles to Lua.
 - `push`, `unshift`, and `concat` methods
 - `map`, `filter`, `reduce`, `forEach` methods
 - `slice` and `splice` methods
+- `arr[2..3]` slice from 2 to 3
+- `arr[5..]` slice from 5 to end
+- `arr[..3]` slice first 3 items
+- `arr[-2..]` slice last 2 items
+- `arr[..]` clone the array
 
 ### Maps
 - `let m = {a, b, c}` map key to variable of same name
