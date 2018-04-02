@@ -165,5 +165,6 @@ Javascript-like language that transpiles to Lua.
 - `setmetatable` keyword?
 - `struct` keyword (FFI in LuaJIT)
 - `effect` keyword ("did set" handler in `class` body)
+- `weak` keyword (weak property declaration in `class` body)
 - allow semicolons?
 
