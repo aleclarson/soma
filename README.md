@@ -161,5 +161,6 @@ Javascript-like language that transpiles to Lua.
 - `enum` structs?
 - `setmetatable` keyword?
 - `struct` keyword (FFI in LuaJIT)
+- `effect` keyword ("did set" handler in `class` body)
 - allow semicolons?
 
