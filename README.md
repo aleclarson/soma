@@ -39,6 +39,7 @@ Javascript-like language that transpiles to Lua.
 - `foo() {}` method declaration
 - `@foo() {}` static methods
 - `@foo =` static properties
+- named classes are hoisted: `class Foo {}`
 
 ### Super
 - `super` returns the metatable of the superclass
