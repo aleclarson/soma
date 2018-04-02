@@ -61,15 +61,14 @@ Javascript-like language that transpiles to Lua.
 - `{ [x]: 1 }` any value as map key
 
 ### Functions
-- `@` or `this`
-- `@x` or `this.x`
-- `@foo()` is a method call
-- `@.foo()` is a function call
-- using `@` or `this` turns the function scope into a method
-- function call no args: `foo()`
-- function call no parens: `foo 1, 2`
-- function call w/ parens: `foo(1, 2)` or `foo (1, 2)` or `(foo 1, 2)`
+- no parens: `foo 1, 2` (not allowed if 0 args)
+- with parens: `foo(1, 2)` or `foo (1, 2)` or `(foo 1, 2)`
 - method calls: `a:b()` sets `a` as `@` of `b`
+- context: `@` or `this`
+- context property: `@x` or `this.x`
+- context methods: `@foo()` or `this:foo()`
+- context functions: `@.foo()` or `this.foo()`
+- functions using `@` or `this` are called as methods
 - `...args` named rest arguments (and array unpacking)
 - `function(a = 1) {}` default argument values
 - `(function() {})()` self-calling functions
