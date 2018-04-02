@@ -60,9 +60,9 @@ Javascript-like language that transpiles to Lua.
 
 ### Arrays
 - `let [a, b, c] =` array destructuring
-- `push`, `unshift`, and `concat` methods
+- `push`, `unshift`, `shift`, `pop`, and `concat` methods
 - `map`, `filter`, `reduce`, `forEach` methods
-- `slice` and `splice` methods
+- `join`, `slice`, and `splice` methods
 - `arr[2..3]` slice from 2 to 3
 - `arr[5..]` slice from 5 to end
 - `arr[..3]` slice first 3 items
