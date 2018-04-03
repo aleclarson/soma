@@ -162,6 +162,7 @@ Javascript-like language that transpiles to Lua.
 - `export []` export only an array
 
 ### Undecided
+- rename to `nami` with `.mi` extension
 - `enum` structs?
 - `setmetatable` keyword?
 - `struct` keyword (FFI in LuaJIT)
