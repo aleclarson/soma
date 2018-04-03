@@ -111,6 +111,7 @@ Javascript-like language that transpiles to Lua.
 - function calls must use parens: `if foo()` or `if (foo 1, 2)`
 - trailing `if` statement (eg: `return 1 if true`)
 - `else if` instead of Lua's `elseif`
+- `else while` and `else for` are allowed
 - `if a = opts.a` set variable and test it
 
 ### Switch blocks
