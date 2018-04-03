@@ -1,0 +1,49 @@
+
+// tuples can be used when declaring variables
+let (a, b) = (1, 2)
+// is equal to:
+let a = 1, b = 2
+
+// this is useful for tuples returned by functions
+let foo = () => (1, 2)
+let (a, b) = foo()
+
+// you can set existing variables, too
+(a, b) = (3, 4)
+
+
+// tuple literals are forbidden in function calls
+add (1, 2), 3 // compile-time error
+
+
+// tuples returned by functions are spread
+let foo = () => (1, 2)
+add foo()
+// is equal to:
+add 1, 2
+
+// but the caller may override them
+add foo(), 3
+// is equal to:
+add 1, 3
+// because of how Lua works
+
+
+// tuples are spread into array literals
+let foo = () => (10, 20)
+let arr = [
+  foo()
+]
+echo arr // 10, 20
+
+// map properties use only the first value
+let map = {
+  foo: foo()
+}
+echo map.foo // 10
+
+// the `select` function can be used to
+// extract the value of a given index
+// from a tuple:
+map.bar = select 2, foo() // 20
+

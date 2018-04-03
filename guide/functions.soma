@@ -1,0 +1,34 @@
+
+// named functions are hoisted.
+let x = foo()
+function foo() {
+  return 1 // the `return` keyword is required
+}
+
+// lambdas are not hoisted.
+let foo = () => 1 // the `return` keyword is forbidden
+let x = foo()
+
+// multi-line lambdas must have braces.
+let add = (x, y) => {
+  let z = x + y
+  return z // the `return` keyword is optional
+}
+
+
+// call a function with parens
+add(1, 2)
+// or without parens
+add 1, 2
+
+// these calls are identical:
+add 1, sub 2, x - 3
+add(1, sub(2, x - 3))
+
+
+// functions can have default argument values
+function foo(x = 0, y = x) {
+  // referencing earlier arguments is allowed.
+  // only arguments with a `nil` value use their defaults.
+}
+
