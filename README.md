@@ -29,10 +29,10 @@ Javascript-like language that transpiles to Lua.
 - `!a` shorthand for `a == nil or a == false`
 
 ### Operators
-- `?=` operator sets variable if nil
-- `?.` operator for nil-safe accessors
-- `#` operator for string/table length
-- `|` operator for piping function results
+- `a ?= b` sets `a` to `b` if `a == nil`
+- `a?.b` returns `a.b` if `a != nil` else `nil`
+- `#` for string/table length
+- `|` for piping function results
 
 ### Variables
 - `let a, b = 1` sets `b` to `1`
