@@ -24,7 +24,7 @@ Javascript-like language that transpiles to Lua.
 ### Comparison
 - `a == b` for strict equals
 - `a != b` for *not* strict equals
-- `x in [1..10]` range comparison
+- `x in (1, 10)` range comparison
 - `a?` shorthand for `a != nil`
 - `!a` shorthand for `a == nil or a == false`
 
@@ -134,7 +134,7 @@ Javascript-like language that transpiles to Lua.
 - `for x in map` array/map loops (value only)
 - `for k, x in map` array/map loops (index/key, value)
 - `for a, b, c of iter` iterator loops
-- `for x in [1..2]` range loops
+- `for x in (1, 10)` range loops
 - `continue` keyword
 - `break` keyword
 
