@@ -113,6 +113,7 @@ Javascript-like language that transpiles to Lua.
 - `else if` instead of Lua's `elseif`
 - `else while` and `else for` are allowed
 - `if a = opts.a` set variable and test it
+- `unless a and b` is equivalent to `if !(a and b)`
 
 ### Switch blocks
 - no braces: `switch x`
