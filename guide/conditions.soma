@@ -1,0 +1,43 @@
+
+// if-then expression
+let x =
+  if foo
+  then bar()
+  else tau()
+
+// and-or expression
+let x =
+  foo and bar() or tau()
+
+// braced if statement
+if (foo) {
+  bar()
+} else {
+  tau()
+}
+
+// if-then statement
+if foo then bar()
+
+// trailing if statement
+bar() if foo
+let x = y if !(prime y)
+
+// when expression
+let x = when {
+  foo < 0 then 0
+  foo > max then max
+  else foo
+}
+
+// switch block
+switch(foo) {
+  when 0 then bar()
+  when > max {
+    // ...
+  }
+  else bar()
+}
+
+
+
