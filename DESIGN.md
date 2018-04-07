@@ -1,8 +1,4 @@
-# soma v0.0.2
-
-Javascript-like language that transpiles to Lua.
-
-**NOTE:** None of this is implemented.
+This is where syntax ideas are organized.
 
 ### Keywords
 - `class {}` declaration
