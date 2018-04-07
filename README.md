@@ -11,11 +11,15 @@ Check out the [guide](./guide) for example code!
 The following sections explore the behavior of Soma,
 as well as where it differs from Javascript or Lua (or both)!
 
-### Variable hoisting
+### Function hoisting
 
-All function and variable declarations are hoisted,
-and named `function` definitions are moved above
-all other code.
+Named functions are hoisted above all other code in the
+nearest block.
+
+Just like in Javascript, this lets you call named functions before
+they appear in the script. For example, one of your named functions
+may decide to call another named function that's defined further
+down in the script!
 
 ```
 let x = 1
@@ -33,8 +37,6 @@ function bar() {
 The above script becomes:
 
 ```lua
-local x, y, foo, bar
-
 function foo()
   return x + bar()
 end
