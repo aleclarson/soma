@@ -34,7 +34,7 @@ This is where syntax ideas are organized.
 - `|` for piping function results
 
 ### Variables
-- `let a, b = 1` sets `b` to `1`
+- `let a, b = 1` sets `a` to `nil` and `b` to `1`
 - `let (a, b) = (1, 2)` sets `a` to `1` and `b` to `2`
 - `let (a, b) =` works with function call on right-hand side too
 - assignment of an undeclared variable is a compile-time error
