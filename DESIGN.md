@@ -15,7 +15,7 @@ This is where syntax ideas are organized.
 - `echo` transpiles to `print()`
 - `new Foo` transpiles to `Foo.new()`
 - `throw` transpiles to `error()`
-- `try..catch` transpiles to `xpcall()`
+- `try..catch` transpiles to `pcall()`
 
 ### Comparison
 - `a == b` for strict equals
