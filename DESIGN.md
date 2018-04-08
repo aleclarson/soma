@@ -137,11 +137,12 @@ This is where syntax ideas are organized.
 
 ### Strings
 - single or double quotes
-- literal concat: `"a\b/c"` => `"a" .. b .. "c"`
-- `"a\(b + 1)/c"` for expressions
-- variable concat: `a\b\c` => `a .. b .. c`
-- multi-line strings (`"` only)
+- `"a \(b) c"` => `"a " .. b .. " c"`
+- `"a \(b + 1) c"` => `" a" .. (b + 1) .. " c"`
+- `a \ b \ c` => `a .. b .. c`
 - `a \= b` => `a = a .. b`
+- interpolation in `"` only
+- literal line breaks in `"` only
 
 ### Expressions
 - `a = 1` returns `1`
