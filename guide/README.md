@@ -1,8 +1,9 @@
 # User guide
 
-You will find in-depth exploration of soma's syntax.
+Examples of soma's capabilities
 
-- [Functions](./functions.soma)
-- [Tuples](./tuples.soma)
+- [conditions](./conditions.soma)
+- [functions](./functions.soma)
+- [tuples](./tuples.soma)
 - *more coming soon...*
 
