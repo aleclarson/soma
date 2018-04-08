@@ -70,7 +70,5 @@ relevant information. You may also decide to make a subclass of `Error`.
 You can omit the `Error` constructor entirely, of course. Any value
 can be thrown.
 
-NOTE: Lua's `error` function is unavailable, but `pcall` and `xpcall` may be used.
-
 Implementation considerations: https://www.lua.org/wshop06/Belmonte.pdf
 
