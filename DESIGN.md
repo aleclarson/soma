@@ -26,8 +26,9 @@ This is where syntax ideas are organized.
 
 ### Operators
 - `a ?= b` sets `a` to `b` if `a == nil`
-- `a ?: b` returns `a` if `a != nil` else `b`
+- `a ?? b` returns `a` if `a != nil` else `b`
 - `a?.b` returns `a.b` if `a != nil` else `nil`
+- `a?:b()` will call the `b` method if `a != nil`
 - `#` for string/table length
 - `|` for piping function results
 
