@@ -48,3 +48,29 @@ end
 local x = 1
 local y = foo()
 ```
+
+### Error handling
+
+Soma has `try..catch` and `throw` in its arsenal, which Javascript
+developers will be comfortable with.
+
+```
+try {
+  throw Error 'shit happens'
+  echo 'im never called'
+} catch(err) {
+  echo 'its all good, keep going'
+}
+echo 'what just happened?'
+```
+
+The `Error` class wraps a string to provide context about the error.
+Like in Javascript, you may decide to set some properties with
+relevant information. You may also decide to make a subclass of `Error`.
+You can omit the `Error` constructor entirely, of course. Any value
+can be thrown.
+
+NOTE: Lua's `error` function is unavailable, but `pcall` and `xpcall` may be used.
+
+Implementation considerations: https://www.lua.org/wshop06/Belmonte.pdf
+
