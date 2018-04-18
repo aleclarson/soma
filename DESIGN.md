@@ -60,6 +60,7 @@ This is where syntax ideas are organized.
 - `let m = {a, b, c}` map key to variable of same name
 - `let {a, b, c} =` map destructuring
 - `{ [x]: 1 }` any value as map key
+- `m.{a: 1, b: 2}` shorthand property assignment
 
 ### Functions
 - no parens: `foo 1, 2` (not allowed if 0 args)
