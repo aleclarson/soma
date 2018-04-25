@@ -75,6 +75,7 @@ This is where syntax ideas are organized.
 - `function(a = 1) {}` default argument values
 - `(function() {})()` self-calling functions
 - named functions are hoisted: `function foo() {}`
+- Unnamed `...` within a function to spread all arguments
 
 ### Tuples
 - return a tuple: `return (1, 2, 3)`
