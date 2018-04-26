@@ -44,6 +44,7 @@ This is where syntax ideas are organized.
 - `{}` map literals require braces
 - `$[]` read-only array
 - `${}` read-only map
+- `!{}` Lua table (must use `x = 1` for string keys)
 - `/.+/g` regex literals
 - `do { }` blocks
 
