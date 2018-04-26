@@ -42,6 +42,8 @@ This is where syntax ideas are organized.
 ### Literals
 - `[]` built-in array structure
 - `{}` map literals require braces
+- `$[]` read-only array
+- `${}` read-only map
 - `/.+/g` regex literals
 - `do { }` blocks
 
