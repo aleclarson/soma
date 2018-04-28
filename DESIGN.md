@@ -59,6 +59,7 @@ This is where syntax ideas are organized.
 - `arr[..3]` slice first 3 items
 - `arr[-2..]` slice last 2 items
 - `arr[..]` clone the array
+- `let arr = [2..3]` range literal
 
 ### Maps
 - `let m = {a, b, c}` map key to variable of same name
