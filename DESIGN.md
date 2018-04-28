@@ -140,7 +140,7 @@ This is where syntax ideas are organized.
 - `for x in map` array/map loops (value only)
 - `for k, x in map` array/map loops (index/key, value)
 - `for a, b, c of iter` iterator loops
-- `for x in (1, 10)` range loops
+- `for x in [1..10]` range loops
 - `continue` keyword
 - `break` keyword
 
