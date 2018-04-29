@@ -82,6 +82,13 @@ This is where syntax ideas are organized.
 - named functions are hoisted: `function foo() {}`
 - Unnamed `...` within a function to spread all arguments
 
+### Macros
+- aka inlined "functions"
+- `macro foo() {}`
+- the expansion is always wrapped with parens
+- arguments are always wrapped with parens
+- `%arg%` is used for embedded identifiers
+
 ### Tuples
 - return a tuple: `return (1, 2, 3)`
 - assign a tuple: `let (a, b) = (1, 2)`
