@@ -21,7 +21,7 @@ This is where syntax ideas are organized.
 ### Comparison
 - `a == b` for strict equals
 - `a != b` for *not* strict equals
-- `x in (1, 10)` range comparison
+- `x in [1..10]` range comparison
 - `a?` shorthand for `a != nil`
 - `!a` shorthand for `a == nil or a == false`
 
