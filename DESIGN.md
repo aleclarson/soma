@@ -3,7 +3,7 @@ This is where syntax ideas are organized.
 ### Keywords
 - `class {}` declaration
 - `function() {}` declaration
-- `is` instead of `instanceof`
+- `isa` instead of `instanceof` and `typeof`
 - `or` instead of `||`
 - `and` instead of `&&`
 - `let` for variable declaration (block-scoped)
@@ -11,7 +11,6 @@ This is where syntax ideas are organized.
 - `export` for module exports
 - `import` for module imports
 - `import()` for require-like syntax
-- `typeof` transpiles to `type()`
 - `echo` transpiles to `print()`
 - `new Foo` transpiles to `Foo.new()`
 - `throw` transpiles to `error()`
