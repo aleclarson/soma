@@ -66,6 +66,7 @@ This is where syntax ideas are organized.
 - `let {a, b, c} =` map destructuring
 - `{ [x]: 1 }` any value as map key
 - `m.{a: 1, b: 2}` shorthand property assignment
+- `foo(a: 1, b: 2)` optional braces for one-line tables wrapped with function call parens
 
 ### Functions
 - no parens: `foo 1, 2` (not allowed if 0 args)
