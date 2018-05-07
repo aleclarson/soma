@@ -7,7 +7,6 @@ This is where syntax ideas are organized.
 - `or` instead of `||`
 - `and` instead of `&&`
 - `let` for variable declaration (block-scoped)
-- `global` transpiles to `_G`
 - `export` for module exports
 - `import` for module imports
 - `import()` for require-like syntax
