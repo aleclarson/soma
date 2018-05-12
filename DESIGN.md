@@ -176,7 +176,7 @@ This is where syntax ideas are organized.
 - `export []` export only an array
 
 ### Undecided
-- rename to `nami` with `.mi` extension
+- rename to `nug` with `.nug` extension
 - `enum` structs?
 - `setmetatable` keyword?
 - `struct` keyword (FFI in LuaJIT)
